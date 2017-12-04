@@ -18,7 +18,7 @@ Android の公式サンプルアプリ「[MediaRecorder](https://github.com/goog
 https://github.com/googlesamples/android-MediaRecorder/
 
 # 手順書
-１．[プロジェクトの新規作成・UI の移植・Activity の書き換え・アイコンの設定](./textbook1.md)  
+１．[プロジェクトの新規作成・UI の移植・Activity の書き換え・アイコンの設定](./textbook1.md)  
 ２．[CameraHelper クラスの書き換え](./textbook2.md)  
 ３．[MediaCodecWrapper クラス書き換え](./textbook3.md)  
 ４．[MainActivity クラス書き換え・パーミッション設定](./textbook4.md)  
