@@ -115,9 +115,7 @@ using System.Collections.Generic;
 を追加します。  
   
 さらに 8 行程下の行の
-```java
-```
-の ```List<>``` も同様に ```IList<>``` に書き換えます。
+ ```List<>``` も同様に ```IList<>``` に書き換えます。
 ```java
 List<Camera.Size> videoSizes;
 ```
