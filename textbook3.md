@@ -120,14 +120,14 @@ Java では公開データメンバは小文字で始まりますが、C# では
 ・```Locale.US``` → ```Locale.Us```  
 
 ## 定数名の変更
-Java では公開フォールドはすべて大文字・_区切りですが、C# では大文字始まり大文字区切りになります。  
+Java では公開フィールドはすべて大文字・_区切りですが、C# では大文字始まり大文字区切りになります。  
 
 置換は Mac の場合は ```option+command+F```、Windows の場合は ```ctrl+H``` で行えます。  
   
 ・```MediaFormat.KEY_MIME``` → ```MediaFormat.KeyMime```  
 
 ## 列挙体への変更
-Java では公開フォールドはなるべく列挙体に変更されています。
+Java では公開フィールドはなるべく列挙体に変更されています。
 
 置換は Mac の場合は ```option+command+F```、Windows の場合は ```ctrl+H``` で行えます。  
   
