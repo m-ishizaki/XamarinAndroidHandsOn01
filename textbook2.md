@@ -183,7 +183,7 @@ double ratio = (double)size.Width / size.Height;
 ```java
 if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE)
 ```
-で ```abs`` が見つからないというエラーです。Java のメソッド名の流儀は頭を小文字で始めますが、C# では頭が大文字で始まります。  
+で ```abs``` が見つからないというエラーです。Java のメソッド名の流儀は頭を小文字で始めますが、C# では頭が大文字で始まります。  
 ```cs
 if (Math.Abs(ratio - targetRatio) > ASPECT_TOLERANCE)
 ```
@@ -202,7 +202,7 @@ if (Math.Abs(size.Height - targetHeight) < minDiff && previewSizes.contains(size
 で ```contains``` が見つからないというエラーです。
 Java のメソッド名の流儀は頭を小文字で始めますが、C# では頭が大文字で始まります。
 ```cs
-if (Math.Abs(size.Height - targetHeight) < minDiff && previewSizes.contains(size))
+if (Math.Abs(size.Height - targetHeight) < minDiff && previewSizes.Contains(size))
 ```
   
 この書き換えは何度か出てくるので、覚えておくかここで一括置換してしまいましょう。  
@@ -280,7 +280,7 @@ Camera.getCameraInfo(i, cameraInfo);
 ```cs
 Camera.GetCameraInfo(i, cameraInfo);
 ```
-## cameraInfo.facing への書き換え
+## cameraInfo.Facing への書き換え
 次は
 ```java
 if (cameraInfo.facing == position)
