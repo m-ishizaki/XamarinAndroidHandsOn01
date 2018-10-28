@@ -55,7 +55,8 @@ private Button captureButton;
 ```cs
 SetContentView(Resource.Layout.sample_main);
 ```
-の下に下記の C# コードをコピー&ペーストします。これまで同様、Java では小文字始まりだったメソッド名が、大文字始まりになります。 ・Java のコード
+の下に下記の C# コードをコピー&ペーストします。これまで同様、Java では小文字始まりだったメソッド名が、大文字始まりになります。  
+・Java のコード
 ```java
 mPreview = (TextureView) findViewById(R.id.surface_view);
 captureButton = (Button) findViewById(R.id.button_capture);
